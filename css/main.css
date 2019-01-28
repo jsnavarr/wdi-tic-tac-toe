@@ -1,0 +1,77 @@
+header {
+    color: maroon;
+    font-size: 40px;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+header p {
+    margin: 10px auto;
+    padding: 20px;
+    border: 8px double darkmagenta;
+    border-radius: 20px;
+    background-color: rgba(0, 255, 255, 0.5);
+}
+
+body {
+    background-color: steelblue;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cell {
+    background-color:azure;
+    border: 5px double lavender;
+    height: 100px;
+    width: 100px;
+}
+
+#row1, #row2, #row3 {
+    display: inline-block;   
+    margin: 0 5px; 
+}
+
+#player1Input, #player2Input, #resetButton {
+    font-size: 20px;
+    padding: 5px 10px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    display: inline;
+}
+
+#player1Input, #player2Input{
+    width: 200px;
+    text-align: center;
+    
+}
+
+#resetButton{
+    width: 120px;
+}
+
+.winner {
+    background-color: lightgreen;
+    border-color: darkblue;
+}
+
+.winningCell {
+    background-color: lightgreen;
+}
+
+.active {
+    background-color: darkred;
+    color: azure;
+    border-color: bisque;
+}
+
+footer{
+    color: darkblue;
+    font-size: 18px;
+}
+
+
+
+
+
